@@ -10,3 +10,7 @@
 
 (delete-selection-mode 1)
 
+;; I may regret this...
+;; It may also reduce my hand strain
+(global-set-key (kbd "<f2>") 'save-buffer)
+(global-set-key (kbd "<f1>") 'find-file)
