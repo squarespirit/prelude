@@ -1,4 +1,5 @@
-;; Org mode
+(setq-default org-startup-indented t)
+
 (setq org-ellipsis " •••")
 ;; Shift select everywhere but timestamps
 (setq org-support-shift-select 'always)
