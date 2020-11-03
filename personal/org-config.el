@@ -1,6 +1,7 @@
 (setq-default org-startup-indented t)
 
 (setq org-ellipsis " •••")
+(setq org-special-ctrl-a/e 'reversed)
 ;; Shift select everywhere but timestamps
 (setq org-support-shift-select 'always)
 ;; https://orgmode.org/manual/Conflicts.html
